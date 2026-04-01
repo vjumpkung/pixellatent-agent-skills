@@ -9,6 +9,7 @@
 - (EXPERIMENTAL) comfyui-migrate-to-v3 - สำหรับการ Migrate Format การเขียน Custom Nodes บน ComfyUI แบบ Version 3 
 - pageindex - agent skills version สำหรับ pageindex
 - pageindex-search - agent skills สำหรับการค้นหาไฟล์แบบ pageindex (ใช้คู่กันกับ pageindex)
+- axios-security-check - ช่วยตรวจสอบ version ของ axios ที่พึ่งเกิน Supply Chain Attack (ไม่แนะนำให้ bypass permission)
 
 ## วิธีการติดตั้ง 
 
@@ -40,4 +41,10 @@ pageindex-search
 
 ```bash
 npx skills add https://github.com/vjumpkung/pixellatent-agent-skills/tree/main/skills/pageindex-search
+```
+
+axios-security-check
+
+```bash
+npx skills add https://github.com/vjumpkung/pixellatent-agent-skills/tree/main/skills/axios-security-check
 ```
