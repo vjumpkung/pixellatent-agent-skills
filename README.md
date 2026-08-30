@@ -4,7 +4,7 @@
 
 ## Skills List
 
-- comfyui-custom-nodes-backend - สำหรับการสร้าง custom nodes บน ComfyUI
+- comfyui-custom-nodes-backend - สำหรับการสร้าง backend custom nodes บน ComfyUI ด้วย V3 schema
 - comfyui-custom-nodes-frontend - สำหรับการปรับแต่งหน้าเว็บของ ComfyUI
 - (EXPERIMENTAL) comfyui-migrate-to-v3 - สำหรับการ Migrate Format การเขียน Custom Nodes บน ComfyUI แบบ Version 3 
 - pageindex - agent skills version สำหรับ pageindex
